@@ -1,9 +1,14 @@
 {
   "name": "markdown-up-img",
   "main": "./lib/markdown-up-img",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
+  "version": "1.0.0",
+  "description": "Just use 'ctrl+shfit+v' paste image into markdown",
+  "keywords": [
+    "markdown",
+    "md",
+    "image",
+    "paste"
+  ],
   "activationCommands": {
     "atom-workspace": "markdown-up-img:stark"
   },
