@@ -1,8 +1,8 @@
 {
   "name": "markdown-up-img",
   "main": "./lib/markdown-up-img",
-  "version": "1.0.0",
-  "description": "Just use 'ctrl+shfit+v' paste image into markdown",
+  "version": "0.0.1",
+  "description": "You only need to paste the image to the server automatically, and generate the image link.",
   "keywords": [
     "markdown",
     "md",
