@@ -1,7 +1,7 @@
 {
   "name": "markdown-up-img",
   "main": "./lib/markdown-up-img",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "You only need to paste the image to the server automatically, and generate the image link.",
   "keywords": [
     "markdown",
