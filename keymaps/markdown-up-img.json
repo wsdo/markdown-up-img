@@ -1,0 +1,7 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "markdown-up-img:toggle",
+    "ctrl-shift-v": "markdown-up-img:upImg",
+    "ctrl-alt-s": "markdown-up-img:stark"
+  }
+}

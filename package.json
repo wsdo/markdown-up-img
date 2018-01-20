@@ -1,0 +1,81 @@
+{
+  "name": "markdown-up-img",
+  "main": "./lib/markdown-up-img",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "markdown-up-img:stark"
+  },
+  "repository": "https://github.com/wsdo/markdown-up-img.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "qiniu": "=6.1.11",
+    "request": "^2.55.0"
+  },
+  "configSchema": {
+    "only_markdown": {
+      "type": "boolean",
+      "default": true,
+      "title": "Only in markdown grammar to enable the plugin",
+      "description": ""
+    },
+    "use_assets_folder": {
+      "type": "boolean",
+      "default": true,
+      "title": "Save images in assets folder",
+      "description": ""
+    },
+    "upload_to_mssm": {
+      "type": "boolean",
+      "default": false,
+      "title": "Use sm.ms for image link",
+      "description": ""
+    },
+    "upload_to_qiniu": {
+      "type": "boolean",
+      "default": false,
+      "title": "Use qiniu for image link",
+      "description": ""
+    },
+    "filePrefix": {
+      "type": "string",
+      "default": "stark",
+      "title": "filePrefix",
+      "description": "img name prefix"
+    },
+    "zAccessKey": {
+      "type": "string",
+      "default": "",
+      "title": "AccessKey",
+      "description": ""
+    },
+    "zSecretKey": {
+      "type": "string",
+      "default": "",
+      "title": "SecretKey",
+      "description": ""
+    },
+    "zbucket": {
+      "type": "string",
+      "default": "",
+      "title": "Bucket",
+      "description": ""
+    },
+    "zdomain": {
+      "type": "string",
+      "default": "http://",
+      "title": "Domain",
+      "description": ""
+    },
+    "zuphost": {
+      "type": "string",
+      "default": "https://up-z1.qiniup.com",
+      "title": "Uphost",
+      "description": "七牛云上传服务器域名，上传出错时可能是上传的区域服务器域名不对。默认不用设置。"
+    }
+  }
+}
